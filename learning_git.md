@@ -35,9 +35,10 @@ git commit -am "All my files were committed!"
 ```
 git log
 ```
-9. Verify changes for commit
+9. Verify changes in your modified area
 ```
-git diff or git diff --name -only
+git diff
+git diff --name-only // for verify file name modified
 ``` 
 10. If you want keep your changes without commit, use:
 ```
